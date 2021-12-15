@@ -26,3 +26,6 @@ This is the code for ridge plot use Seaborn Library in python...
  
 
 
+# v6 result
+
+ ![image](https://github.com/sgzqc/wechat/blob/main/20211215/result/ridgeplot_v6.png)
