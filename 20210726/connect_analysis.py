@@ -25,7 +25,7 @@ def connect4(grid):
     # 4-connected neighborhood offset
     connected_4 = [(1, 0), (0, 1), (-1, 0), (0, -1)]
     # Matrix of labels
-    labels = [[0 for _ in range(M)] for _ in range(N)]
+    labels = [[0 for _ in range(N)] for _ in range(M)]
     for m in range(M):
         for n in range(N):
             if labels[m][n]:
@@ -65,7 +65,7 @@ def connect8(grid):
         (-1, -1), (-1, 0), (-1, 1)
     ]
     # Matrix of labels
-    labels = [[0 for _ in range(M)] for _ in range(N)]
+    labels = [[0 for _ in range(N)] for _ in range(M)]
     for m in range(M):
         for n in range(N):
             if labels[m][n]:
@@ -102,6 +102,7 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 1, 0, 0, 0],
         [0, 0, 0, 0, 1, 0, 0, 0],
         [0, 0, 0, 0, 1, 0, 0, 0],
+        [0, 1, 1, 0, 0, 0, 0, 0],
         [0, 1, 1, 0, 0, 0, 0, 0]
     ]
     grid = np.array(grid)
